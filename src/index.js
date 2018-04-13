@@ -1,4 +1,4 @@
-export default function idempotentBabelPolyfill() {
+export function idempotentBabelPolyfill() {
   if (
     !global._babelPolyfill &&
     // eslint-disable-next-line no-undef
@@ -9,4 +9,4 @@ export default function idempotentBabelPolyfill() {
   return null;
 }
 
-idempotentBabelPolyfill();
+export default idempotentBabelPolyfill();
