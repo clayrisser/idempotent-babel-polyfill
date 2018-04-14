@@ -1,7 +1,5 @@
 # idempotent-babel-polyfill
 
-[![Beerpay](https://beerpay.io/codejamninja/idempotent-babel-polyfill/badge.svg?style=beer-square)](https://beerpay.io/codejamninja/idempotent-babel-polyfill)
-[![Beerpay](https://beerpay.io/codejamninja/idempotent-babel-polyfill/make-wish.svg?style=flat-square)](https://beerpay.io/codejamninja/idempotent-babel-polyfill?focus=wish)
 [![GitHub stars](https://img.shields.io/github/stars/codejamninja/idempotent-babel-polyfill.svg?style=social&label=Stars)](https://github.com/codejamninja/idempotent-babel-polyfill)
 
 > Import babel-polyfill multiple times
@@ -64,11 +62,11 @@ Review the [changelog](https://github.com/codejamninja/idempotent-babel-polyfill
 * [Jam Risser](https://codejam.ninja) - Author
 
 
-## Support on Beerpay (actually, I drink coffee)
+## Support on Liberapay
 
 A ridiculous amount of coffee ☕ ☕ ☕ was consumed in the process of building this project.
 
-[Add some fuel](https://beerpay.io/codejamninja/idempotent-babel-polyfill) if you'd like to keep me going!
+[Add some fuel](https://liberapay.com/codejamninja/donate) if you'd like to keep me going!
 
-[![Beerpay](https://beerpay.io/codejamninja/idempotent-babel-polyfill/badge.svg?style=beer-square)](https://beerpay.io/codejamninja/idempotent-babel-polyfill)
-[![Beerpay](https://beerpay.io/codejamninja/idempotent-babel-polyfill/make-wish.svg?style=flat-square)](https://beerpay.io/codejamninja/idempotent-babel-polyfill?focus=wish)
+[![Liberapay receiving](https://img.shields.io/liberapay/receives/codejamninja.svg?style=flat-square)](https://liberapay.com/codejamninja/donate)
+[![Liberapay patrons](https://img.shields.io/liberapay/patrons/codejamninja.svg?style=flat-square)](https://liberapay.com/codejamninja/donate)
