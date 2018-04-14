@@ -27,7 +27,21 @@ npm install --save idempotent-babel-polyfill
 
 ## Usage
 
-[Contribute](https://github.com/codejamninja/idempotent-babel-polyfill/blob/master/CONTRIBUTING.md) usage docs
+### ES6 Import
+```js
+import 'idempotent-babel-polyfill';
+```
+
+### Require
+```js
+require('idempotent-babel-polyfill');
+```
+
+### Inject with Function
+```js
+import { idempotentBabelPolyfill } from 'idempotent-babel-polyfill';
+idempotentBabelPolyfill();
+```
 
 
 ## Support
