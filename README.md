@@ -1,5 +1,7 @@
 # idempotent-babel-polyfill
 
+[![npm](https://img.shields.io/npm/v/idempotent-babel-polyfill.svg?style=flat-square)](https://www.npmjs.com/package/idempotent-babel-polyfill)
+[![npm](https://img.shields.io/npm/dt/idempotent-babel-polyfill.svg?style=flat-square)](https://www.npmjs.com/package/idempotent-babel-polyfill)
 [![GitHub stars](https://img.shields.io/github/stars/codejamninja/idempotent-babel-polyfill.svg?style=social&label=Stars)](https://github.com/codejamninja/idempotent-babel-polyfill)
 
 > Import babel-polyfill multiple times
@@ -27,17 +29,17 @@ npm install --save idempotent-babel-polyfill
 
 ## Usage
 
-### ES6 Import
+### Implement with ES6 Import
 ```js
 import 'idempotent-babel-polyfill';
 ```
 
-### Require
+### Implement with Require
 ```js
 require('idempotent-babel-polyfill');
 ```
 
-### Inject with Function
+### Implement with Function
 ```js
 import { idempotentBabelPolyfill } from 'idempotent-babel-polyfill';
 idempotentBabelPolyfill();
@@ -47,11 +49,6 @@ idempotentBabelPolyfill();
 ## Support
 
 Submit an [issue](https://github.com/codejamninja/idempotent-babel-polyfill/issues/new)
-
-
-## Screenshots
-
-[Contribute](https://github.com/codejamninja/idempotent-babel-polyfill/blob/master/CONTRIBUTING.md) a screenshot
 
 
 ## Contributing
