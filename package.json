@@ -1,6 +1,6 @@
 {
   "name": "idempotent-babel-polyfill",
-  "version": "0.1.1",
+  "version": "6.26.0",
   "description": "Import babel-polyfill multiple times",
   "homepage": "https://github.com/codejamninja/idempotent-babel-polyfill",
   "author": {
