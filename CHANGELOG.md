@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [7.0.0] - 2018-10-11
 ### Updated
 * babel 7.0.0
+
+## [6.26.0-2] - 2018-10-11
 ### Added
 * unit tests
 
