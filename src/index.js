@@ -4,7 +4,7 @@ export function idempotentBabelPolyfill() {
     // eslint-disable-next-line no-undef
     (typeof window === 'undefined' || !window._babelPolyfill)
   ) {
-    return require('babel-polyfill');
+    return require('@babel/polyfill');
   }
   return null;
 }
