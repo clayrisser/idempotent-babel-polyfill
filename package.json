@@ -1,6 +1,6 @@
 {
   "name": "idempotent-babel-polyfill",
-  "version": "6.26.0-1",
+  "version": "6.26.0-2",
   "description": "Import babel-polyfill multiple times",
   "homepage": "https://github.com/codejamninja/idempotent-babel-polyfill",
   "author": {
@@ -13,11 +13,13 @@
     "lib"
   ],
   "scripts": {
-    "lint": "eslint ./",
-    "lint:fix": "eslint --fix ./",
-    "build": "npm run clean && babel src -d lib",
-    "clean": "rm -rf lib",
-    "prepublish": "npm run build"
+    "build": "npm run test && babel src -d lib",
+    "clean": "rimraf lib",
+    "format": "prettier --write ./src/**/*.js",
+    "lint": "npm run format && eslint ./",
+    "lint:fix": "npm run format && eslint --fix ./",
+    "prepublish": "npm run clean && npm run build",
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0"
@@ -27,9 +29,9 @@
     "babel-eslint": "^8.2.2",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.18.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-config-jam": "^0.1.4",
+    "eslint-plugin-jest": "^21.24.1",
+    "jest": "^23.6.0"
   },
   "license": "MIT",
   "repository": "https://github.com/codejamninja/idempotent-babel-polyfill",
@@ -38,5 +40,11 @@
   },
   "eslintIgnore": [
     "lib"
-  ]
+  ],
+  "jest": {
+    "testMatch": [
+      "**/tests/**/[^_]*.js"
+    ],
+    "verbose": true
+  }
 }
