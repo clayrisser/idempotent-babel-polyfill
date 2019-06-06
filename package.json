@@ -1,6 +1,6 @@
 {
   "name": "idempotent-babel-polyfill",
-  "version": "7.0.0",
+  "version": "7.2.3",
   "description": "Import babel-polyfill multiple times",
   "homepage": "https://github.com/codejamninja/idempotent-babel-polyfill",
   "author": {
@@ -22,20 +22,20 @@
     "test": "npm run lint && jest"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0"
+    "@babel/polyfill": "^7.2.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-core": "7.0.0-bridge.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.6.1",
-    "eslint-config-jam": "^0.1.4",
-    "eslint-plugin-jest": "^21.24.1",
-    "jest": "^23.6.0",
-    "prettier": "^1.14.3",
-    "rimraf": "^2.6.2"
+    "eslint": "^5.16.0",
+    "eslint-config-jam": "^0.2.9",
+    "eslint-plugin-jest": "^22.6.4",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3"
   },
   "license": "MIT",
   "repository": "https://github.com/codejamninja/idempotent-babel-polyfill",
