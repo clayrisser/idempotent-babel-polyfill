@@ -1,6 +1,6 @@
 {
   "name": "idempotent-babel-polyfill",
-  "version": "7.2.3",
+  "version": "7.2.5",
   "description": "Import babel-polyfill multiple times",
   "homepage": "https://github.com/codejamninja/idempotent-babel-polyfill",
   "author": {
@@ -22,7 +22,7 @@
     "test": "npm run lint && jest"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.3"
+    "@babel/polyfill": "^7.2.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
