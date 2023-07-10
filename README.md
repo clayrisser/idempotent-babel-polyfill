@@ -6,6 +6,8 @@
 
 > Import babel-polyfill multiple times
 
+![](assets/idempotent-babel-polyfill.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 
